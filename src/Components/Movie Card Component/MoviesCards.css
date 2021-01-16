@@ -1,0 +1,41 @@
+.movie-description{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding:10px;
+    max-height: 70%;
+    overflow: auto;
+    border-top-left-radius: 20px;
+    transform: translateY(0%);
+    transition: transform 0.3s ease-in-out;
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+    
+
+}
+.dismiss{
+    transform: translateY(102%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding:10px;
+    max-height: 70%;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+    
+}
+.movie-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height: 580px;
+    overflow: hidden;
+
+} 
